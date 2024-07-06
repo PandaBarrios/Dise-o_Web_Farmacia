@@ -1,0 +1,109 @@
+{
+  "personas": [
+    {
+      "id": 1,
+      "imagen": "https://imgur.com/09OfsqJ.png",
+      "nombre": "Juan Pérez",
+      "correo": "juan.perez@example.com",
+      "comentario": "Excelente servicio al cliente, siempre dispuesto a ayudar."
+    },
+    {
+      "id": 2,
+      "imagen": "https://imgur.com/d5oHPwz.png",
+      "nombre": "María García",
+      "correo": "maria.garcia@example.com",
+      "comentario": "Productos de alta calidad y precios competitivos."
+    },
+    {
+      "id": 3,
+      "imagen": "https://imgur.com/POt9ob7.png",
+      "nombre": "Luis Rodríguez",
+      "correo": "luis.rodriguez@example.com",
+      "comentario": "Entrega rápida y eficiente. Muy satisfecho con mi compra."
+    },
+    {
+      "id": 4,
+      "imagen": "https://imgur.com/YdmYGQY.png",
+      "nombre": "Ana Martínez",
+      "correo": "ana.martinez@example.com",
+      "comentario": "Siempre encuentro lo que busco. Recomiendo esta farmacia a mis amigos."
+    },
+    {
+      "id": 5,
+      "imagen": "https://imgur.com/UkZyCZq.png",
+      "nombre": "Carlos López",
+      "correo": "carlos.lopez@example.com",
+      "comentario": "Gran variedad de productos y precios accesibles. ¡Volveré a comprar!"
+    },
+    {
+      "id": 6,
+      "imagen": "https://imgur.com/y8VOvar.png",
+      "nombre": "Laura Hernández",
+      "correo": "laura.hernandez@example.com",
+      "comentario": "Atención al cliente impecable. Resolvieron todas mis dudas."
+    },
+    {
+      "id": 7,
+      "imagen": "https://imgur.com/JdsBWD9.png",
+      "nombre": "Pedro Sánchez",
+      "correo": "pedro.sanchez@example.com",
+      "comentario": "Entrega rápida y productos de calidad. Totalmente recomendado."
+    },
+    {
+      "id": 8,
+      "imagen": "https://imgur.com/5YxvW7D.png",
+      "nombre": "Marta Díaz",
+      "correo": "marta.diaz@example.com",
+      "comentario": "Siempre compro mis medicamentos aquí. Servicio confiable y rápido."
+    },
+    {
+      "id": 9,
+      "imagen": "https://imgur.com/jXrMK9S.png",
+      "nombre": "Javier Ruiz",
+      "correo": "javier.ruiz@example.com",
+      "comentario": "Fácil de navegar y encontrar lo que necesito. ¡Muy buen servicio!"
+    },
+    {
+      "id": 10,
+      "imagen": "https://imgur.com/O9nNVtZ.png",
+      "nombre": "Elena Gómez",
+      "correo": "elena.gomez@example.com",
+      "comentario": "Productos frescos y de calidad. Los recomendaré a mis familiares."
+    },
+    {
+      "id": 11,
+      "imagen": "https://imgur.com/hx4wnMr.png",
+      "nombre": "David García",
+      "correo": "david.garcia@example.com",
+      "comentario": "Entrega rápida y sin problemas. Excelente experiencia de compra."
+    },
+    {
+      "id": 12,
+      "imagen": "https://imgur.com/VMq1BIn.png",
+      "nombre": "Carmen Fernández",
+      "correo": "carmen.fernandez@example.com",
+      "comentario": "Siempre encuentro lo que necesito y a buen precio. ¡Muy satisfecha!"
+    },
+    {
+      "id": 13,
+      "imagen": "https://imgur.com/B2qGisL.png",
+      "nombre": "Mario Martínez",
+      "correo": "mario.martinez@example.com",
+      "comentario": "La mejor farmacia de la zona. Productos de calidad y atención excelente."
+    },
+    {
+      "id": 14,
+      "imagen": "https://imgur.com/KC6V5cK.png",
+      "nombre": "Silvia López",
+      "correo": "silvia.lopez@example.com",
+      "comentario": "Gran variedad de productos y precios competitivos. ¡Totalmente recomendado!"
+    },
+    {
+      "id": 15,
+      "imagen": "https://imgur.com/WBXg9sx.png",
+      "nombre": "Pablo Rodríguez",
+      "correo": "pablo.rodriguez@example.com",
+      "comentario": "Siempre cumplen con los plazos de entrega. ¡Excelente servicio!"
+    }
+  ]
+}

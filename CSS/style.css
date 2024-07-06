@@ -1,0 +1,243 @@
+
+body{
+  background-color: rgb(217, 214, 214);
+}
+
+/* header */
+.container-fluid{
+    background-color: rgb(217, 214, 214);
+    display: flex;
+    padding-top: 5px;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+
+header img{
+    width: 30px;
+    height: 30px;
+}
+
+header div{
+    display: flex;
+}
+
+header p{
+ font-size: small;
+ margin-left: 20px;
+ color: black;
+ font-family: Arial, Helvetica, sans-serif;
+ font-weight: bold;
+
+}
+
+/*Fin header*/
+
+/*Navbar*/
+#img_logo{
+width: 100px;
+height: 100px;
+margin-left: 13%;
+}
+
+.links{
+  width: 50px;
+  height: 50px;
+  transition: transform 0.3s ease; 
+}
+
+.links1{
+  width: 60px;
+  height: 61px;
+  transition: transform 0.3s ease; 
+}
+
+.links:hover{
+transform: scale(1.1); 
+cursor: pointer; 
+}
+
+.links1:hover{
+transform: scale(1.1); 
+cursor: pointer; 
+}
+.logos{
+    margin-right: 13%;
+    border-left: solid 2px green;
+}
+
+.nav-item{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: medium;
+    margin-right: 20px;
+    transition: color 0.3s, font-size 0.3s;
+}
+
+.nav-item:hover{
+    border-bottom: 2px solid green;
+    font-size: large;
+}
+
+.nav-link:hover{
+    color:#37612e;
+}
+
+/*Fin Navbar*/
+
+/*Main*/
+
+main{
+  background-color: rgb(217, 214, 214);
+}
+
+/* Aside */
+#Anuncios {
+  margin-top: 20px; /* Ajusta el margen superior según sea necesario */
+}
+
+.carousel-image {
+  height: auto; /* Para mantener la proporción de la imagen */
+  max-height: 400px; /* Establece un límite máximo de altura */
+}
+
+/* Fin Aside */
+
+
+
+/*Article 1*/
+.Articulo1 {
+    background-image: url(../Imagenes/General/Articulo1.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.introducion {
+    text-align: justifys;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    padding: 100px 0; 
+}
+.introducion p {
+  margin-right: 20%; 
+}
+
+.boton-Nosotros {
+    border-radius: 12px;
+}
+/*Fin Article 1*/
+
+/*Article 2*/
+#articulo2 {
+    text-align: center;
+    background-image: url(../Imagenes/General/burbujas.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#articulo2 h2{
+  border: #163e6f 3px solid;
+  margin: 0%;
+  color: white;
+  background-color: #9bcbe4;
+  
+
+}
+
+  .productos {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .Producto {
+    width: 300px;
+    height: auto;
+    margin: 10px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    text-align: center;
+     
+   
+  }
+
+  .Producto img {
+    width: 250px;
+    height: auto;
+    margin-bottom: 10px;
+    transition: transform 0.3s ease; 
+  }
+
+.Producto img:hover {
+    transform: scale(1.1); 
+    cursor: pointer; 
+}
+
+  .Producto label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+
+  #Informacion{
+    font-size: small;
+  }
+
+  .Producto button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+
+  .Producto button:hover {
+    background-color: #0056b3;
+  }
+/*Fin Article 2*/
+
+/*Fin Main*/
+
+
+/*Footer */
+
+.container h5{
+  border-bottom:white solid 2px ;
+}
+
+.caja{
+  border: white solid 2px;
+  padding: 3%;
+}
+
+.caja a{
+  text-decoration: none;
+  color: white;
+  margin-top: 50%;
+  transition: color 0.3s, font-size 0.3s;
+}
+
+.caja a:hover{
+ color: #37612e;
+ font-size: larger;
+}
+
+/* Estilos para el contenedor del mapa */
+.map-container {
+  position: relative;
+  overflow: hidden;
+  padding-top: 56.25%; /* Aspect ratio 16:9 */
+}
+
+.map-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+/*Fin Footer */

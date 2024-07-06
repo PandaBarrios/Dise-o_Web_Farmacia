@@ -1,0 +1,200 @@
+body{
+    background-color: rgb(217, 214, 214);
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    
+  }
+
+  /*Navbar*/
+
+.container-fluid{
+    background-color: rgb(217, 214, 214);
+}
+#img_logo{
+    width: 100px;
+    height: 100px;
+    margin-left: 13%;
+    }
+    
+    .links{
+      width: 50px;
+      height: 50px;
+      transition: transform 0.3s ease; 
+    }
+    
+    .links1{
+      width: 60px;
+      height: 61px;
+      transition: transform 0.3s ease; 
+    }
+    
+    .links:hover{
+    transform: scale(1.1); 
+    cursor: pointer; 
+    }
+    
+    .links1:hover{
+    transform: scale(1.1); 
+    cursor: pointer; 
+    }
+    .logos{
+        margin-right: 13%;
+        border-left: solid 2px green;
+    }
+    
+    .nav-item{
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        font-size: medium;
+        margin-right: 20px;
+        transition: color 0.3s, font-size 0.3s;
+    }
+    
+    .nav-item:hover{
+        border-bottom: 2px solid green;
+        font-size: large;
+    }
+    
+    .nav-link:hover{
+        color:#37612e;
+    }
+    
+    /*Fin Navbar*/
+
+    /*Main*/
+
+    .buscador {
+        max-width: 800px;
+        margin: 50px auto;
+        padding: 20px;
+        background-color: #fff;
+        border-radius: 5px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+    .buscador h1 {
+        text-align: center;
+        margin-bottom: 30px;
+        text-decoration: underline #6c9483 1px;
+    }
+    input[type="text"] {
+        width: calc(100% - 70px);
+        padding: 10px;
+        border: 2px solid #658117;
+        border-radius: 5px 0 0 5px;
+        font-size: 16px;
+        outline: none;
+    }
+    button {
+        padding: 10px 20px;
+        border: none;
+        border-radius: 0 5px 5px 0;
+        background-color: #048434;
+        color: #fff;
+        font-size: 16px;
+        cursor: pointer;
+    }
+    button:hover {
+        background-color: #acdc64;
+    }
+    .resultado {
+        margin-top: 20px;
+        padding: 20px;
+        border: 2px solid white;
+        border-radius: 5px;
+        background-color: #6c9483;
+        text-align: center;
+        justify-content: center;
+    }
+    .resultado p {
+        margin: 10px 0;
+        color: white;
+        font-weight: bold;
+    }
+    .resultado img {
+        max-width: 300px;
+        border-radius: 5px;
+    }
+
+    .personas{
+       justify-content: center;
+       text-align: center;
+    }
+    .cuadro-persona {
+      background-color: #6c9483;
+      color: white;
+      border: 2px solid #048434;
+      border-radius: 5px;
+      padding: 20px;
+      margin: 10px;
+      max-width: 300px; 
+      text-align: center;
+      display: inline-block;
+  }
+  
+  .cuadro-persona img {
+      width: 100%; /* Hace que la imagen ocupe el ancho completo del cuadro */
+      max-width: 150px; /* Define un ancho máximo para la imagen */
+      height: auto; /* Permite que la altura de la imagen se ajuste automáticamente */
+      border-radius: 40%;
+      margin-bottom: 10px;
+  }
+  
+  .cuadro-persona p {
+      margin: 5px 0;
+      font-weight: bold;
+
+  }
+  
+  
+  
+/*Footer */
+
+.container h5{
+    border-bottom:white solid 2px ;
+  }
+  
+  .caja{
+    border: white solid 2px;
+    padding: 3%;
+  }
+  
+  .caja a{
+    text-decoration: none;
+    color: white;
+    margin-top: 50%;
+    transition: color 0.3s, font-size 0.3s;
+  }
+  
+  .caja a:hover{
+   color: #37612e;
+   font-size: larger;
+  }
+  
+  /* Estilos para el contenedor del mapa */
+  .map-container {
+    position: relative;
+    overflow: hidden;
+    padding-top: 56.25%; /* Aspect ratio 16:9 */
+  }
+  
+  .map-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+  
+  /*Fin Footer */
+
+  /* Media query para pantallas más pequeñas */
+  @media (max-width: 768px) {
+    .cuadro-persona {
+        display: block; /* Cambia la disposición a bloque para que cada cuadro ocupe toda la anchura */
+        max-width: none; /* Elimina el ancho máximo para permitir que los cuadros ocupen toda la anchura */
+        margin: 10px auto; /* Centra los cuadros */
+    }
+}
+
+  

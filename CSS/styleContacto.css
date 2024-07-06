@@ -1,0 +1,316 @@
+body{
+  background-color: rgb(217, 214, 214);
+}
+
+/* Estilos base */
+body {
+  font-size: 16px;
+}
+
+/* Media query para pantallas más pequeñas */
+@media screen and (max-width: 768px) {
+  body {
+    font-size: 14px;
+  }
+}
+
+
+/*Navbar*/
+.cabeza{
+    background-color: rgb(217, 214, 214);
+    display: flex;
+    padding-top: 5px;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+
+#img_logo{
+    width: 100px;
+    height: 100px;
+    margin-left: 13%;
+    }
+    
+  .links{
+        width: 50px;
+        height: 50px;
+        transition: transform 0.3s ease; 
+    }
+    
+  .links1{
+        width: 60px;
+        height: 61px;
+        transition: transform 0.3s ease; 
+    }
+
+  .links:hover{
+    transform: scale(1.1); 
+    cursor: pointer; 
+  }
+  
+  .links1:hover{
+    transform: scale(1.1); 
+    cursor: pointer; 
+  }
+
+    .logos{
+        margin-right: 13%;
+        border-left: solid 2px green;
+    }
+    
+    .nav-item{
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        font-size: medium;
+        margin-right: 20px;
+        transition: color 0.3s, font-size 0.3s;
+    }
+    
+    .nav-item:hover{
+        border-bottom: 2px solid green;
+        font-size: large;
+    }
+    
+    .nav-link:hover{
+        color:#37612e;
+    }
+    
+    /*Fin Navbar*/
+
+/*Main*/
+
+main{
+  background-color: rgba(0, 0, 0, 0.6);
+  padding-bottom: 5%;
+}
+
+/* Aside */
+.aside {
+  background-image: url(../Imagenes/General/Llamada.avif);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 500px;
+  width: 100%;
+  padding: 0%;
+  display: flex;
+  justify-content: center; /* Centrar contenido horizontalmente */
+  align-items:center; /* Centrar contenido verticalmente */
+}
+
+.descripcion {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column; /* Mostrar elementos uno encima del otro */
+  align-items: center; 
+  text-align: justify;
+  background-color: rgba(0, 0, 0, 0.8);
+  color: white;
+  padding: 5%;
+}
+
+.descripcion h1 {
+  font-size: 4.5vw; /* Tamaño de fuente basado en el ancho de la ventana */
+  border-bottom: solid 3px white;
+}
+
+.descripcion p {
+  font-size: 1.5vw; /* Tamaño de fuente basado en el ancho de la ventana */
+  margin-right: 0; 
+}
+
+
+@media screen and (max-width: 768px) {
+  .descripcion h1 {
+    font-size: 40px; /* Tamaño de fuente fijo para dispositivos más pequeños */
+  }
+
+  .descripcion p {
+    font-size: 16px; /* Tamaño de fuente fijo para dispositivos más pequeños */
+  }
+}
+/*fin Aside*/
+
+/*Contacto*/
+
+
+.formulario p{
+  text-align: justify;
+  color: white;
+  font-size: large;
+}
+
+#detalle{
+  color: #a8dc60;
+  font-size: xx-large;
+  margin-left: 10px;
+}
+
+.formulario h6{
+ margin-top:40px;
+ font-weight: bold;
+ color: white;
+}
+
+.formulario h2{
+  text-align: center;
+  color: white;
+  display: flex;
+}
+
+
+
+
+#contact-form {
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-control {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+textarea.form-control {
+  resize: vertical;
+}
+
+.btn-primary {
+  background-color: #a8dc60;
+  color: black;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.btn-primary:hover {
+  background-color: #0056b3;
+}
+
+label{
+  color: white;
+}
+
+.informacion {
+  width: 90%;
+  display: grid;
+  justify-items: center;
+  background-color: rgba(0, 0, 0, 0.8);
+  color: white;
+}
+
+.informacion img{
+width: 100px;
+height: 100pxs;
+margin-top: 20%;
+background-color: white;
+border-radius: 40px;
+position: static;
+
+transition: background 2s ease; /* Animación de transición */
+}
+
+.informacion img:hover{
+  background: radial-gradient(circle, white 50%, black 50%);
+  background-size: 200% 200%;
+  background-position: 50% 50%;
+  
+}
+
+.informacion a{
+margin-top: 20%;
+}
+
+.Horarios {
+  display: flex;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+#horario {
+  width: 100%;
+  padding: 20px; 
+  color: white; 
+}
+
+#horario div{
+  display: grid;
+  justify-items: center;
+  text-align: center;
+}
+
+#horario img{
+width: 100px;
+height: 100px;
+}
+
+#mapa {
+  width: 100%;
+  flex: 1; /* El mapa ocupará el espacio restante */
+  padding: 20px; 
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  color: #37612e;
+}
+
+th, td {
+  padding: 12px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+
+/*Fin Contacto*/
+
+/*Fin Main */
+
+    
+    /*Footer */
+
+.container h5{
+    border-bottom:white solid 2px ;
+  }
+  
+  .caja{
+    border: white solid 2px;
+    padding: 3%;
+  }
+  .caja img{
+    width: 300px;
+    height: 350px;
+  }
+  .caja a{
+    text-decoration: none;
+    color: white;
+    margin-top: 50%;
+    transition: color 0.3s, font-size 0.3s;
+  }
+  
+  .caja a:hover{
+   color: #37612e;
+   font-size: larger;
+  }
+  
+  /* Estilos para el contenedor del mapa */
+ 
+  /*Fin Footer */
